@@ -22,7 +22,6 @@ body {
 }
 
 .container {
-  overflow: hidden;
   margin-top: 50px;
   margin-bottom: 50px;
   position: relative;
@@ -125,6 +124,7 @@ span {
 
 @media (min-width: 1024px) {
   .container {
+    overflow: hidden;
     margin-top: 50px;
     position: relative;
     width: 80%;
